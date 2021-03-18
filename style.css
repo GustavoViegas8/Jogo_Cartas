@@ -1,0 +1,17 @@
+nav > img {
+    width: 60px;
+}
+
+.card-body {
+    height: 190px;
+}
+
+.card img {
+    position: relative;
+    left: 70px;
+    margin-left: -50px;
+}
+
+.mensagem {
+    clear: both;
+}

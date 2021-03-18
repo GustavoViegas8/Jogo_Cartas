@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="black.png" type="image/x-icon">
+    <title>Black Jack</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-primary navbar-dark mb-2">
+        <img src="black.png" alt="Jogo de Cartas">
+        <p class="navbar-brand mt-3 ml-2">Jogo de Cartas - Vinte e Um (BlackJack)</p>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card mx-2">
+                    <div class="card-header">
+                        <h3 class="text-primary">
+                            <i class="fas fa-user-friends"></i>
+                            Suas Cartas
+                            <button class="btn btn-primary float-right" id="btComprarCarta">
+                                Comprar Carta
+                            </button>
+                        </h3>
+                    </div>
+                    <div class="card-body">
+                    </div>
+                    <div class="card-footer">
+                        <h4 class="text-primary">Total de Pontos:
+                            <span class="font-weight-bold">0</span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card mx-2">
+                    <div class="card-header">
+                        <h3 class="text-danger">
+                            <i class="fas fa-laptop"></i>
+                            Cartas do Computador
+                            <button class="btn btn-danger float-right" id="btApostar">
+                                Apostar
+                            </button>
+                        </h3>
+                    </div>
+                    <div class="card-body">
+                    </div>
+                    <div class="card-footer">
+                        <h4 class="text-danger">Total de Pontos:
+                            <span class="font-weight-bold">0</span>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-dark float-right mx-2 my-3 px-5" id="btNovo">
+            Jogar Novamente
+        </button>
+        <div class="mensagem mx-2">     
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
